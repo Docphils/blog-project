@@ -1,0 +1,110 @@
+.my-slider {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+
+.my-slider .my-wrapper {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.999);
+  transition: 0.001s all linear;
+  will-change: transform;
+}
+
+
+.my-slider .arrows {
+  position: absolute;
+  top: calc(50% - 30px);
+  background: none;
+  height: 60px;
+  border: 0;
+  cursor: pointer;
+  transition: ease 0.3s all;
+  outline: none;
+}
+
+.my-slider .arrows.prev {
+  left: 0;
+}
+
+.my-slider .arrows.prev:hover {
+  opacity: 0.7;
+  left: -10px;
+}
+
+.my-slider .arrows.next {
+  right: 0;
+}
+
+.my-slider .arrows.next:hover {
+  right: -10px;
+  opacity: 0.7;
+}
+
+.my-slider .my-dots-container {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: auto;
+  text-align: center;
+  left: 50%;
+  bottom: 9px;
+  transform: translateX(-50%);
+  z-index: 10;
+  list-style-type: none;
+}
+
+.my-slider .my-dots-container li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.my-slider .my-dots-container li.active button {
+  color: #00d8ff;
+}
+
+.my-slider .my-dots-container li button {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+}
+
+.my-slider .my-dots-container li button:hover {
+  text-decoration: none;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.my-slider .my-toggle-play {
+  background: transparent;
+  border: none;
+  height: auto;
+  position: absolute;
+  width: auto;
+  right: 5%;
+  bottom: 9px;
+  color: #3d3d3d;
+  z-index: 10;
+}
+
+.my-slider .my-toggle-play:hover {
+  text-decoration: none;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.my-slider .my-each-slide {
+  width: 100%;
+  height: 100%;
+  float: left;
+  line-height: 100%;
+  font-size: 40%;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: transparent;
+}

@@ -1,0 +1,228 @@
+.sidebar {
+    background-color: rgba(255, 255, 255, 0.5);
+    /* top: 53px; */
+    right: calc(100% - 210px);
+    left: 0px;
+    bottom: 0px;
+    color: rgb(0, 0, 0);
+    width: 210px;
+    height: 100%;
+    z-index: 500;
+    padding: 10px;
+    padding-right: 0px;
+    background-color: whitesmoke;
+    overflow-y: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: 8px; /* Firefox */
+    border-right-color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 150px;
+}
+.footerforsidebar {
+    top: calc(100% - 80px);
+    right: calc(100% - 210px);
+    width: 210px !important;
+    padding-bottom: 35px;
+    bottom:0px;
+    position: fixed;
+    left: 0px;
+    height: 80px;
+    background-color: inherit;
+    
+}
+
+.sidebar-minimal {
+    /* top: 50px; */
+    left: 0px;
+    bottom: 0px;
+    color: rgb(0, 0, 0);
+    width: 55px;
+    right: calc(100% - 55px);
+    height: 100%;
+    border-right-color: rgba(255, 255, 255, 0.8);
+    border-right-width: 1px;
+    border-top-width: 0px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    padding-bottom: 100px;
+    z-index: 500;
+    overflow-x: auto;
+    overflow-x: visible;
+    scrollbar-width: 8px;
+    padding-bottom: 38px;
+}
+
+.sidebar-minimal ::--webkit-scrollbar{
+    width:0px;
+}
+
+.sidebar-minimal .icons {
+    justify-self: center;
+    font-size: x-large;
+}
+
+.sidebar-minimal .group .title {
+    justify-self: center;
+    font-size: x-large;
+    padding: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+.sidebar-toggle-collapse {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+.sidebarNameInvisible {
+    display: none;
+}
+
+.sidebarNameVisibility {
+    display: flex;
+      /* Required for text-overflow to do anything */
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow: ellipsis;
+}
+
+.sidebar .section {
+    width: 100%;
+    margin: 1px;
+    padding: 5px;
+    padding-right: 0px;
+}
+
+.sidebar .section .group {
+    width: 100%;
+}
+
+.sidebar .section .profile {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 10px;
+    justify-content: center !important;
+}
+.sidebar .section .profile .username {
+    /* justify-self: center; */
+    text-align: center;
+}
+
+.sidebar .section .profile .avatar  img {
+    height: fit-content;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgba(150, 114, 7, 0.902);
+    display: flex;
+    justify-content: center !important;
+}
+
+.sidebar .section .group .title,
+.title a {
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.sidebar .section .group .title:hover,
+.sidebar .section .group .attribute ul li:hover,
+.sidebar .section .group .attribute ul li a:hover {
+    border-right-width: 4px;
+    border-right-color: brown;
+}
+
+.sidebar .section .group .title div {
+    padding-right: 15px;
+}
+
+.sidebar .section .group .attribute {
+    width: 100%;
+}
+
+.sidebar .section .group .attribute ul {
+    width: 100%;
+}
+
+.sidebar .section .group .attribute ul li,
+.sidebar .section .group .attribute ul li a {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding-left: 10px;
+    background-color: rgb(210, 205, 205);
+}
+
+.sidebar .section .group .attribute ul li div {
+    padding-right: 10px;
+}
+
+.sidebar-minimal .section .group .attribute {
+    position: absolute;
+    white-space: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 225px !important;
+    padding: 10px;
+    padding-right: 0px;
+    height: auto;
+    background: inherit;
+    margin: 0px;
+    margin-top:-40px;
+    left: 55px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgba(251, 251, 251, 0.95);
+}
+
+.sidebar-minimal .section .group{
+    cursor: pointer;
+}
+
+.sidebar-minimal .section .group .attribute .title .icons{
+    border-color: rgba(0, 0, 0, 1);
+    border-width: 1px;
+
+}
+
+.sidebar-minimal .section .group .attribute ul,
+.sidebar-minimal .section .group .attribute ul li { 
+    cursor: pointer;
+    width: 100%;
+}
+
+.sidebar-minimal .section .group .attribute ul li,
+.sidebar-minimal .section .group .attribute ul li a {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding-left: 0px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+.sidebar-minimal .section .group .attribute ul li:hover {
+    border-right-color: brown;
+    border-right-width: 4px;
+}
+
+.sidebar-minimal .section .group .attribute ul li div {
+    padding-right: 5px;
+    align-self: center;
+}
