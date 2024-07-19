@@ -5,9 +5,7 @@
         "dev": "vite",
         "build": "vite build"
     },
-   
     "dependencies": {
-        "@inertiajs/react": "^1.2.0",
         "@editorjs/checklist": "^1.6.0",
         "@editorjs/code": "^2.9.0",
         "@editorjs/delimiter": "^1.4.0",
@@ -32,7 +30,7 @@
         "@inertiajs/core": "^1.0.6",
         "@inertiajs/inertia": "^0.11.1",
         "@inertiajs/inertia-react": "^0.8.1",
-        "@inertiajs/progress": "^0.2.7",
+        "@inertiajs/react": "^1.2.0",
         "@mui/icons-material": "^5.15.6",
         "@mui/material": "^5.15.6",
         "@popperjs/core": "^2.11.7",
@@ -54,7 +52,6 @@
         "jquery-ui-bundle": "^1.12.1-migrate",
         "json-format": "^1.0.1",
         "laravel-precognition-react-inertia": "^0.5.1",
-        "laravel-vite-plugin": "^0.7.5",
         "leaflet": "^1.9.3",
         "leaflet-extra-markers": "^1.2.1",
         "leaflet.heightgraph": "^1.4.0",
@@ -101,31 +98,30 @@
         "turnstone": "^2.2.0",
         "turnstone-recent-searches": "^0.5.0",
         "uuid": "^9.0.1",
-        "vite": "^4.3.5",
         "yargs": "^17.7.2",
         "yup": "^0.32.11"
     },
     "devDependencies": {
-        "axios": "^1.6.4",
-        "laravel-vite-plugin": "^1.0",
-        "vite": "^5.0",
         "@headlessui/react": "^1.7.14",
         "@inertiajs/core": "^1.0.6",
         "@inertiajs/inertia": "^0.11.1",
         "@inertiajs/inertia-react": "^0.8.1",
-        "@inertiajs/progress": "^0.2.7",
+        "@inertiajs/progress": "^0.1.2",
         "@inertiajs/react": "^1.0.6",
         "@popperjs/core": "^2.11.7",
         "@tailwindcss/forms": "^0.5.3",
         "@vitejs/plugin-react": "^4.0.3",
         "autoprefixer": "^10.4.12",
+        "axios": "^1.6.4",
         "daisyui": "^4.12.10",
         "esbuild": "^0.17.18",
         "is-core-module": "^2.12.0",
+        "laravel-vite-plugin": "^1.0.5",
         "postcss": "^8.4.18",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "redux-devtools-extension": "^2.13.8",
-        "tailwindcss": "^3.4.1"
+        "tailwindcss": "^3.4.1",
+        "vite": "^5.3.4"
     }
 }

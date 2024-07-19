@@ -16,9 +16,9 @@ return new class extends Migration
             'firstName' => 'Super-User',
             'lastName' => 'Admin',
             'type' => 'Admin',
-            'email' => 'superadmin@swifre.com',
-            'password' => Hash::make('adminpassword'),
-            'phone' => '2348109502584',
+            'email' => 'contact@docphils.com.ng',
+            'password' => Hash::make('Docphils6416@'),
+            'phone' => '2347062599737',
             'email_verified_at' => now()
         ]);
 

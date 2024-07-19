@@ -40,10 +40,10 @@ class FrontController extends Controller
         Meta::addMeta('author', config('app.name'));
         Meta::addMeta('title', "Welcome to swifre.com");
         Meta::addMeta('description', "A blogging platform for every and anyone, We believe, there's room for every voice and every story. That's why we are providing a blogging platform that's accessible and welcoming to all, regardless of your background, expertise, or interests.
-At swifre.com, our goal is simply to empower individuals from all walks of life through this platform to share their unique perspectives and passions with the world." . config('app.name'));
-        Meta::addMeta('og:title', "Welcome to swifre.com");
+At Merif Classique, our goal is simply to empower individuals from all walks of life through this platform to share their unique perspectives and passions with the world." . config('app.name'));
+        Meta::addMeta('og:title', "Welcome to Merif Classique");
         Meta::addMeta('og:description', "A blogging platform for every and anyone, We believe, there's room for every voice and every story. That's why we are providing a blogging platform that's accessible and welcoming to all, regardless of your background, expertise, or interests.
-At swifre.com, our goal is simply to empower individuals from all walks of life through this platform to share their unique perspectives and passions with the world." . config('app.name'));
+At Merif Classique, our goal is simply to empower individuals from all walks of life through this platform to share their unique perspectives and passions with the world." . config('app.name'));
         Meta::addMeta('og:url',  route($request->route()->getName()));
         Meta::addMeta('canonical', str_replace('www.', '', route("index")));
         return $request->wantsJson()
